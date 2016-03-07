@@ -1,0 +1,123 @@
+/** HEADER **/
+*{
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+#header-nav {
+  background-color: grey;
+  border-radius: 0;
+  border: 0;
+  position: fixed;
+  width: 98%;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+h2{
+  margin-top: 0;
+  padding-top: 100px;
+}
+
+.container{
+  padding: 0;
+  margin: 0;
+  border: 0;
+
+
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  color: black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+
+#nav-list a {
+  color: black;
+  border: 1px solid #3F0C1F;  
+  text-align: center;
+  background-color: white;
+  margin-top: -7.5px;
+  margin-bottom: -7.5px;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+
+/********** Large devices only **********/
+
+  .navbar-brand h1 { /* Restaurant name */
+    font-size: 7vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+
+  }
+  .navbar-brand p img { /* Star-K */
+    height: 20px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+}
+
+
+.Box{
+  border: 1px solid black;
+  background-color: #BEBEBE; 
+  width: 100%;  
+}
+
+.Outbox{
+  padding: 20px 15px 10px 15px;
+}
+
+p {  
+  padding: 20px 15px 0px 15px;  
+  color: black;
+  text-align: justify;
+}
+
+#Title-Chicken {
+  text-align: center;
+}
+#Title-Beef {
+  text-align: center;
+}
+#Title-Sushi {
+  text-align: center;
+}
+
